@@ -61,8 +61,7 @@ nav ul li a { /* For the size and color of Home, About, Projects, Contact */
     position: relative;
 
 }
-nav ul li a:hover,
-nav ul li a.active 
+nav ul li a:hover, nav ul li a.active 
 {
     background: #fff;
     color:#010002;
@@ -90,7 +89,7 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 } */
 
 .header-text{ /* For the size of UX/UI designer */ 
-    margin-top: 17%;
+    margin-top: 20%;
     margin-bottom: 20%;
     font-size: 20px; 
 }
@@ -180,7 +179,7 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 
 .about-col-1 img{
     width: 100%;
-    border-radius: 57% 43% 68% 32% / 28% 49% 51% 72%; /*corner of the img will be round */
+    border-radius: 58% 42% 35% 65% / 47% 50% 50% 53%; /*corner of the img will be round */
     animation: morph 8s ease-in-out infinite;
 }
 @keyframes morph{
