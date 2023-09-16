@@ -161,7 +161,7 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
         transform: translateY(-8%);
     }
 }
-/*=============== About ===============*/
+/*============================== ABOUT ==============================*/
 
 #about {
     padding: 80px 0; 
@@ -176,6 +176,8 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 
 .about-col-1{
     flex-basis: 38%; /*width of the col will be 35 */
+
+    
 }
 
 .about-col-1 img{
@@ -183,6 +185,9 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
     margin-top: 5%;
     border-radius: 58% 42% 35% 75% / 97% 50% 50% 53%; /*corner of the img will be round */
     animation: morph 8s ease-in-out infinite;
+    height: auto;
+    top: 0;
+    
 }
 @keyframes morph{
     0%{
