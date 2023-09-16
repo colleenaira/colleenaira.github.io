@@ -70,26 +70,6 @@ nav ul li a:hover, nav ul li a.active
     color:#010002;
 }
 
-/* 0---------------------- OLD HOVER ---------------------------------
-nav ul li a:hover{  /* For the spaces of Home, About, Projects, Contact 
-    content: '';
-    width: 0%; 
-    height: 3px; 
-    background: #fff; 
-    color: #2b1055;
-
-
-    position: absolute;
-    left: 0%;  /* positioning of the line 
-    bottom: -6px;
-    transition: 0.5s;
-}
-
-
-nav ul li a:hover::after { /* For the highlight color to appear in the links when you hover 
-    width: 100%;
-    
-} */
 
 .header-text{ /* For the size of UX/UI designer */ 
     margin-top: 20%;
@@ -211,7 +191,7 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 }
 
 .sub-title{
-    font-size: 70px; 
+    font-size: 60px; 
     margin-top: 15%;
     font-weight: 600; 
     color: #F7F7FF;
