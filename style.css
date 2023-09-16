@@ -165,8 +165,6 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 
 #about {
     padding: 80px 0; 
-    /*background-color: #483d8b;
-    /*background-image: url(personal-portfolio-img/images/Request\ a\ Consultation\ \(5\).png);*/
     color: #F7F7FF; 
 }
 
@@ -177,12 +175,13 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 }
 
 .about-col-1{
-    flex-basis: 35%; /*width of the col willbe 35 */
+    flex-basis: 38%; /*width of the col will be 35 */
 }
 
 .about-col-1 img{
-    width: 100%;
-    border-radius: 58% 42% 35% 65% / 47% 50% 50% 53%; /*corner of the img will be round */
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 58% 42% 35% 75% / 97% 50% 50% 53%; /*corner of the img will be round */
     animation: morph 8s ease-in-out infinite;
 }
 @keyframes morph{
@@ -190,7 +189,7 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
         border-radius: 57% 43% 68% 32% / 28% 49% 51% 72%
     }
     50%{
-        border-radius: 68% 57% 32% 43% / 82% 28% 49% 28%
+        border-radius: 68% 57% 32% 43% / 82% 98% 49% 28%
         ;
     }
     100%{
@@ -201,12 +200,48 @@ nav ul li a:hover::after { /* For the highlight color to appear in the links whe
 
 .about-col-2 {
     flex-basis: 60%; /*space between img and About Me */
+    font-size: 25px;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .sub-title{
-    font-size: 60px; 
+    font-size: 70px; 
+    margin-top: 15%;
     font-weight: 600; 
     color: #F7F7FF;
+}
+
+.sub-title span{ 
+    color: #d891ef;
+}
+
+.social-icons{
+    margin-top: 0%;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    color:#ababab; 
+    display: inline-block;
+    width: 10%;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color:#b03060;
+    transform: translateY(-5px);
+}
+
+#visual {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .tab-titles{
